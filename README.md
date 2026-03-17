@@ -2,14 +2,13 @@
 
 > A machine learning-powered credit decision tool built for XchangeBox to automate risk assessment on perishable agricultural cargo invoices. Combines IoT sensor simulation, spoilage prediction, and financial risk pricing into a single loan officer decision-support platform.
 
-**Built at XchangeBox Technologies · Advanced Analytics for Agribusiness · MSc Agribusiness & Innovation · UM6P**
+**Built at XchangeBox Technologies**
 
 ---
 
 ## Live Demo
 
-[Launch App on Streamlit Cloud](https://your-app-name.streamlit.app) ← *replace after deployment*
-
+[Launch App on Streamlit Cloud](https://cargocredit.streamlit.app/)
 ---
 
 ## Problem Statement
@@ -123,5 +122,3 @@ Ntsafack, B., et al. (2021). Cold chain management in developing countries. *Jou
 XchangeBox Technologies (2025). *Trade Finance Infrastructure for African Agricultural Supply Chains*. Internal.
 
 ---
-
-*Advanced Analytics for Agribusiness · MSc Agribusiness & Innovation · UM6P*
