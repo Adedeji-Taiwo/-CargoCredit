@@ -1,0 +1,62 @@
+{
+  "spoilage": {
+    "best": "Random Forest",
+    "comparison": {
+      "Logistic Regression": {
+        "AUC": 0.8915,
+        "Recall": 0.8131,
+        "Accuracy": 0.82
+      },
+      "Random Forest": {
+        "AUC": 0.8923,
+        "Recall": 0.8294,
+        "Accuracy": 0.814
+      },
+      "Gradient Boosting": {
+        "AUC": 0.89,
+        "Recall": 0.8061,
+        "Accuracy": 0.811
+      }
+    },
+    "importances": {
+      "temp_exceedance": 0.17983525281731952,
+      "has_cold_chain": 0.16143351633172576,
+      "avg_temp": 0.15174324424916982,
+      "max_temp": 0.09039815004085158,
+      "time_ratio": 0.08323137024275674,
+      "transit_hrs": 0.050216158303785355,
+      "delay_hrs": 0.050045663064262204,
+      "distance_km": 0.04803965415044742,
+      "avg_humidity": 0.04132514764960244,
+      "vibration_score": 0.03910528015038507
+    }
+  },
+  "default": {
+    "best": "Logistic Regression",
+    "comparison": {
+      "Logistic Regression": {
+        "AUC": 0.9133,
+        "Recall": 0.615,
+        "Accuracy": 0.871
+      },
+      "Random Forest": {
+        "AUC": 0.8957,
+        "Recall": 0.5619,
+        "Accuracy": 0.861
+      },
+      "Gradient Boosting": {
+        "AUC": 0.8945,
+        "Recall": 0.5973,
+        "Accuracy": 0.854
+      }
+    },
+    "importances": {}
+  },
+  "data_stats": {
+    "n_shipments": 5000,
+    "spoilage_rate": 0.4438,
+    "default_rate": 0.2304,
+    "avg_invoice": 1066684.0,
+    "avg_rate": 5.26
+  }
+}
